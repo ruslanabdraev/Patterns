@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Deco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{EFAE2C89-A3E5-4F41-AD54-637A8ECE010A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{98D6A996-DD15-4172-BE52-A1B956CE6105}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{EFAE2C89-A3E5-4F41-AD54-637A8ECE010A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFAE2C89-A3E5-4F41-AD54-637A8ECE010A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFAE2C89-A3E5-4F41-AD54-637A8ECE010A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98D6A996-DD15-4172-BE52-A1B956CE6105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D6A996-DD15-4172-BE52-A1B956CE6105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D6A996-DD15-4172-BE52-A1B956CE6105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D6A996-DD15-4172-BE52-A1B956CE6105}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
