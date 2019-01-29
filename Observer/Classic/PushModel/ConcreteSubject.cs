@@ -4,15 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Observer
+namespace Observer.Classic.PushModel
 {
     public class ConcreteSubject : Subject
     {
         public override string State { get; set; }
-
-        public override void Notify()
-        {
-            observers.Invoke(State);
-        }
     }
 }

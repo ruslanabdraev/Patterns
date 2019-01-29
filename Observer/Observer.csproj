@@ -58,11 +58,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classic\PullModel\ConcreteObserver.cs" />
+    <Compile Include="Classic\PullModel\ConcreteSubject.cs" />
+    <Compile Include="Classic\PullModel\Observer.cs" />
+    <Compile Include="Classic\PullModel\Subject.cs" />
+    <Compile Include="Classic\PushModel\ConcreteObserver.cs" />
+    <Compile Include="Classic\PushModel\ConcreteSubject.cs" />
+    <Compile Include="Classic\PushModel\Observer.cs" />
+    <Compile Include="Classic\PushModel\Subject.cs" />
     <Compile Include="Client.cs" />
-    <Compile Include="ConcreteSubject.cs" />
-    <Compile Include="Observer.cs" />
+    <Compile Include="LanguageSpecific\ConcreteSubject.cs" />
+    <Compile Include="LanguageSpecific\Observer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Subject.cs" />
+    <Compile Include="LanguageSpecific\Subject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -79,6 +87,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

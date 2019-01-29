@@ -4,7 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Observer
+namespace Observer.Classic.PullModel
 {
-    public delegate void Observer(string state);
+    public abstract class Observer
+    {
+        public abstract void Update();
+    }
 }
